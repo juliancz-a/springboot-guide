@@ -17,7 +17,7 @@
 3. [IoC (Inversion of Control)](<IoC (Inversion of Control).md>)
 4. [Servidor TOMCAT](<Servidor TOMCAT.md>)
 5. [Spring Expression Language](<Spring Expression Language.md>)
-6. [Interceptores HTTP](<nterceptores HTTP.md>)
+6. [Interceptores HTTP](<Interceptores HTTP.md>)
 7. [Aspect Oriented Programming (AOP)](<Aspect Oriented Programming (AOP).md>)
 
 ### Clases de Spring / Patrones de diseño
