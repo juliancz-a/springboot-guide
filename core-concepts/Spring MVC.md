@@ -2,10 +2,10 @@ Parte del ecosistema de Spring Framework.
 
 Es un framework web basado en [[Modelo - Vista - Controlador (MVC)]], que toma ventajas de los siguientes principios:
 
-1. [[Modelo - Vista - Controlador (MVC)]]
-2. [[Patrón de Inyección de Dependencia]]
+1. [Modelo - Vista - Controlador (MVC)](<core-concepts/Modelo - Vista - Controlador (MVC).md>)
+2. [Patrón de Inyección de Dependencia](core-concepts/Patrón de Inyección de Dependencia.md)
 3. Orientación al uso de interfaces
-4. Uso de clases [[POJO]]
+4. Uso de clases [POJO](core-concepts/POJO.md)
 
 ## Front Controller
 El **Front Controller** es un componente central que se encarga de recibir todas las solicitudes HTTP de una aplicación web. En **Spring MVC**, el Front Controller está representado por la clase `DispatcherServlet`.
