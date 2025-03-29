@@ -1,6 +1,5 @@
 
-![mvc](<remote-springboot-guide/Resources/mvc_diagram.png>)
-
+![mvc](<Resources/mvc_diagram.png>)
 
 **MVC (Model-View-Controller)** es un patrón de diseño de software ampliamente utilizado en el desarrollo de interfaces de usuario y aplicaciones web. Divide una aplicación en tres componentes interconectados para separar la lógica de la interfaz de usuario, los datos y las reglas de negocio, facilitando el mantenimiento y la escalabilidad del software.
 
