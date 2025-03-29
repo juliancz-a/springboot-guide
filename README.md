@@ -1,6 +1,6 @@
-# Spring & spring Boot & • Guía
+# 🌿Spring & Spring Boot • Guía
 
-Guía básica sobre conceptos, herramientas, frameworks y dependencias que forman parte de Spring.
+ Guía básica sobre conceptos, herramientas, frameworks y dependencias que forman parte de Spring.
 
 ## Índice
 
