@@ -1,7 +1,7 @@
 ### Conceptos generales
 
-1. [Spring Framework](<core-concepts/Spring Framework.md>)
-2. [API](core-concepts/API.md)
+1. [Spring Framework](<Spring Framework.md>)
+2. [API](API.md)
 3. [URL, URI Y URN](<core-concepts/URL, URI Y URN.md>)
 4. [XML Namespace](<core-concepts/XML Namespace.md>)
 5. [Postman](core-concepts/Postman.md)
