@@ -1,4 +1,4 @@
-Una [API](core-concepts/API.md) **RESTful** es una API que sigue los principios de la arquitectura **REST (Representational State Transfer)**, un estilo de diseño para sistemas distribuidos basado en recursos y en el uso de los protocolos HTTP. RESTful es una implementación común para crear servicios web escalables y flexibles.
+Una [API](API.md) **RESTful** es una API que sigue los principios de la arquitectura **REST (Representational State Transfer)**, un estilo de diseño para sistemas distribuidos basado en recursos y en el uso de los protocolos HTTP. RESTful es una implementación común para crear servicios web escalables y flexibles.
 
 #### **Características de una API RESTful:**
 
@@ -13,7 +13,7 @@ Una [API](core-concepts/API.md) **RESTful** es una API que sigue los principios 
 5. **Soporte de Caching**: Los datos pueden ser almacenados en caché para mejorar el rendimiento.
 
 
-Podemos devolver cualquier objeto serializable, tipicamente cualquier [POJO](core-concepts/POJO.md) o DTA, Maps, Lists/Collections, Sets, entre otros. Serán serializados en JSON preferentemente.
+Podemos devolver cualquier objeto serializable, tipicamente cualquier [POJO](POJO.md) o DTA, Maps, Lists/Collections, Sets, entre otros. Serán serializados en JSON preferentemente.
 
 
 ## Serialización JSON

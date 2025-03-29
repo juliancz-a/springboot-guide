@@ -3,7 +3,7 @@ Parte del ecosistema de Spring Framework.
 Es un framework web basado en [Modelo - Vista - Controlador (MVC)](<Modelo - Vista - Controlador (MVC).md>), que toma ventajas de los siguientes principios:
 
 1. [Modelo - Vista - Controlador (MVC)](<Modelo - Vista - Controlador (MVC).md>)
-2. [Patrón de Inyección de Dependencia](Patrón de Inyección de Dependencia.md)
+2. [Patrón de Inyección de Dependencia](<Patrón de Inyección de Dependencia.md>)
 3. Orientación al uso de interfaces
 4. Uso de clases [POJO](POJO.md)
 

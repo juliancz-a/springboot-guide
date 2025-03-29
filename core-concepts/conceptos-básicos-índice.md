@@ -11,12 +11,12 @@
 9. [Deploy](Deploy.md)
 10. [Compilar y Transpilar](<Compile - Transpile.md>)
 
-### Herramientas de Spring
+### Herramientas utilizadas por Spring
 
-1. [RESTful](RESTful.md)
+1. [API RESTful y Jackson](API%20RESTful%20y%20Jackson.md)
 2. [Spring MVC](<Spring MVC.md>)
 3. [IoC (Inversion of Control)](<IoC (Inversion of Control).md>)
-4. [Servidor TOMCAT](<Servidor TOMCAT.md>)
+4. [Tomcat](<Tomcat.md>)
 5. [Spring Expression Language](<Spring Expression Language.md>)
 6. [Interceptores HTTP](<Interceptores HTTP.md>)
 7. [Aspect Oriented Programming (AOP)](<Aspect Oriented Programming (AOP).md>)
@@ -25,4 +25,4 @@
 
 1. [POJO](POJO.md)
 2. [Clases DAO y DTO](<Clases DAO y DTO.md>)
-3. [Clases Helper (Java)](<Clases Helper (Java).md>)
+3. [Clases Helper (Java)](<Clases Helper (Java).md>) // cambiar
