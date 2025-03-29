@@ -26,7 +26,7 @@ La POA permite modularizar estas preocupaciones transversales en unidades llamad
     Define los puntos específicos en la ejecución del programa donde se aplicará el aspecto (por ejemplo, la llamada a un método o la ejecución de una función).
 
 Ej:
-    ![[{6DE22BB3-8F38-4A82-954C-19832543B2E6}.png]]
+    ![[../resources/{6DE22BB3-8F38-4A82-954C-19832543B2E6} 1.png]]
 	Se aplica a cualquier package de la app -> ..
 	Se aplica a cualquier clase, y método -> *
 	Los argumentos son desconocidos -> (..)
@@ -110,4 +110,4 @@ Con **ProceedingJoinPoint**, puedes:
 - **Modificar el valor de retorno**.
 - **Manejar excepciones** antes de que sean propagadas.
 
-![[{EF00D2CC-AAF7-40C3-A0D8-3DBFBB617F66}.png]]
+![[../resources/{EF00D2CC-AAF7-40C3-A0D8-3DBFBB617F66} 1.png]]

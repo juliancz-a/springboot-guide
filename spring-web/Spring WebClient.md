@@ -1,0 +1,1 @@
+`WebClient` es el cliente HTTP reactivo introducido en **Spring 5** como una alternativa moderna a `RestTemplate`. Se utiliza para consumir servicios web de manera eficiente, aprovechando las características de **Spring WebFlux**, que permite manejar solicitudes de forma **asíncrona y no bloqueante**.

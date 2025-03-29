@@ -2,7 +2,7 @@ Una [API](core-concepts/API.md) **RESTful** es una API que sigue los principios 
 
 #### **Características de una API RESTful:**
 
-1. **Basada en Recursos**: Cada entidad o dato se trata como un recurso identificado por una URI única. Ver: [[Endpoint Mappings]]
+1. **Basada en Recursos**: Cada entidad o dato se trata como un recurso identificado por una URI única. Ver: [[../spring-web/Endpoint Mappings]]
 2. **Uso de HTTP**: Emplea los métodos estándar del protocolo HTTP:
     - `GET`: Para recuperar datos de un recurso.
     - `POST`: Para crear un nuevo recurso.
