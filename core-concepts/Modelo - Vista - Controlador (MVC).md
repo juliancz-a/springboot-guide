@@ -1,4 +1,5 @@
-[{78A0B196-FF01-4D6B-964A-24B317B0452B}.png](Resources/{78A0B196-FF01-4D6B-964A-24B317B0452B}.png)
+
+![](remote-springboot-guide/Resources/{78A0B196-FF01-4D6B-964A-24B317B0452B}.png)
 
 **MVC (Model-View-Controller)** es un patrón de diseño de software ampliamente utilizado en el desarrollo de interfaces de usuario y aplicaciones web. Divide una aplicación en tres componentes interconectados para separar la lógica de la interfaz de usuario, los datos y las reglas de negocio, facilitando el mantenimiento y la escalabilidad del software.
 
@@ -23,7 +24,8 @@ Se lo puede considerar un patrón de arquitectura, pues engloba a varios patrone
 
 		HTTP REQUEST DEL TIPO POST (lo recibe el controlador):
 		
-	 ![[{D7884FF9-D966-402B-B1C1-28E8F9DF67F6}.png]]
+	 ![](remote-springboot-guide/Resources/{D7884FF9-D966-402B-B1C1-28E8F9DF67F6}.png)
+	 
 1. **Controlador (Controller)**:
     
     - Maneja la lógica de interacción del usuario.
