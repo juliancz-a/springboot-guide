@@ -2,7 +2,7 @@ Spring Web es un módulo de **Spring Framework** diseñado para facilitar el des
 
 ✅ **Spring MVC** (Controladores, Modelos, Vistas)  
 
--> [MVC](<core-concepts/Modelo - Vista - Controlador (MVC).md>)
+-> [MVC](<../core-concepts/Modelo - Vista - Controlador (MVC).md>)
 	
 ✅ **Spring Boot Starter Web** (Facilita la configuración)  
 
