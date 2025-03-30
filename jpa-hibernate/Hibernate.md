@@ -1,5 +1,5 @@
 Hibernate es un framework de persistencia de datos para Java que facilita la interacción con bases de datos relacionales utilizando el paradigma de objetos (ORM - Object Relational Mapping).
-![{B7D478A9-01D5-45DF-B68B-08BE14B1DDBB} 1.png](../res/{B7D478A9-01D5-45DF-B68B-08BE14B1DDBB}%201.png)
+![persistance_diagram.png](../res/persistance_diagram.png)
 
 ### 🔹 **Características Principales de Hibernate**
 

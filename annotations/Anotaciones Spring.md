@@ -1,7 +1,7 @@
 ### @Component
 
 **`@Component`** es una anotación/estereotipo genérica que marca una clase como un **bean** de Spring. Puede aplicarse a cualquier clase que deba ser gestionada por Spring, permitiendo la creación automática de instancias de esa clase cuando es necesaria.
-![{3DDC2009-7E42-483E-BFCB-82E7AE78EF8C} 1.png](../res/{3DDC2009-7E42-483E-BFCB-82E7AE78EF8C}%201.png)
+![anotaciones-facade.png](../res/anotaciones-facade.png)
 ### @SpringBootApplication 
 
 -> Combina `@Configuration`, `@EnableAutoConfiguration` y `@ComponentScan`
@@ -103,7 +103,7 @@ Datos.
 
 Destinada a clases que acceden directamente a la base de datos o a la capa de persistencia. Además de marcar la clase como un bean, proporciona soporte para la conversión de excepciones específicas de la base de datos a **excepciones de Spring**, lo que facilita la gestión de errores. Traduce las excepciones de persistencia.
 
-![{9D7FC004-3AE8-4E22-B6E8-DD30BAB665F4} 1.png](../res/{9D7FC004-3AE8-4E22-B6E8-DD30BAB665F4}%201.png)
+![controllers-services.png](../res/controllers-services.png)
 
 ---
 ### @ModelAttribute

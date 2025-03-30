@@ -110,4 +110,4 @@ Con **ProceedingJoinPoint**, puedes:
 - **Modificar el valor de retorno**.
 - **Manejar excepciones** antes de que sean propagadas.
 
-![[../res/{EF00D2CC-AAF7-40C3-A0D8-3DBFBB617F66} 1.png]]
+![[../res/aop_structure.png]]

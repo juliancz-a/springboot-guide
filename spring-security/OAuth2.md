@@ -1,4 +1,4 @@
-![Pasted image 20250220021115 1.png](../res/Pasted%20image%2020250220021115%201.png)mo funciona OAuth?
+![oauth2-diagram.png](../res/oauth2-diagram.png)mo funciona OAuth?
 
 1. **Flujo típico (Authorization Code Flow):**
     

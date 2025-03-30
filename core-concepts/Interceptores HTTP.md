@@ -7,9 +7,9 @@ Los **interceptores HTTP** en aplicaciones web son componentes que permiten inte
 En **Spring**, los interceptores se utilizan para procesar solicitudes entrantes y respuestas salientes. Se implementan mediante la interfaz `HandlerInterceptor` o la clase abstracta `HandlerInterceptorAdapter` (antes de Spring 5). También pueden ser definidos como **filtros** para tareas más generales.
 
 
-![[../res/{F1095BA1-964B-454F-8E43-D66BEE26B008} 1.png]]
+![[../res/interceptors_concept.png]]
 
-![[../res/{49C101F5-BE4C-4ADB-84F2-C66C0DF52804} 1.png]]
+![[../res/interceptors-structure.png]]
 
 ### **Interfaz `HandlerInterceptor`**
 
