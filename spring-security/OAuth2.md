@@ -1,5 +1,4 @@
-![Pasted image 20250220021115 1.png](../resources/Pasted%20image%2020250220021115%201.png)
-## Cómo funciona OAuth?
+![Pasted image 20250220021115 1.png](../res/Pasted%20image%2020250220021115%201.png)mo funciona OAuth?
 
 1. **Flujo típico (Authorization Code Flow):**
     

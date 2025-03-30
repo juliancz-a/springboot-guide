@@ -32,9 +32,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 .eyJzdWIiOiJ1c3VhcmlvMSIsImV4cCI6MTcxNzI3Nz
 3️⃣ **El cliente guarda el token** y lo envía en cada petición (mediante el `Authorization: Bearer <token>`).  
 4️⃣ **El servidor valida el token** en cada petición y permite el acceso si es válido.
 
-![{1F7C9309-6F9C-4539-BB4A-C396F2A11B80} 1.png](../resources/{1F7C9309-6F9C-4539-BB4A-C396F2A11B80}%201.png)
+![{1F7C9309-6F9C-4539-BB4A-C396F2A11B80} 1.png](../res/{1F7C9309-6F9C-4539-BB4A-C396F2A11B80}%201.png)
 
-![{612A2A03-8BF4-4171-93C9-C94DE4423D1F} 1.png](../resources/{612A2A03-8BF4-4171-93C9-C94DE4423D1F}%201.png)
+![{612A2A03-8BF4-4171-93C9-C94DE4423D1F} 1.png](../res/{612A2A03-8BF4-4171-93C9-C94DE4423D1F}%201.png)
 
 --- 
 ### Resumen

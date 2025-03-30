@@ -51,7 +51,7 @@ Su lema es:  **"No nos llames, nosotros te llamaremos."**
 Este principio sugiere que, en lugar de que las clases dependientes controlen el flujo de ejecución llamando directamente a sus dependencias, es un **contenedor o marco de trabajo** (framework) el que se encarga de la gestión de las instancias y la ejecución de sus métodos.
 
 --- 
-![[../resources/{A4153C31-F5AD-44C6-AE77-5B1562D911F9} 1.png]]
+![[../res/{A4153C31-F5AD-44C6-AE77-5B1562D911F9} 1.png]]
 
 @Controller
 @Service
