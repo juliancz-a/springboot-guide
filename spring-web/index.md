@@ -8,7 +8,7 @@ Spring Web es un módulo de **Spring Framework** diseñado para facilitar el des
 
 ✅ **Manejo de solicitudes HTTP** (@RequestParam, @PathVariable, @RequestBody) 
 
--> [Anotaciones Spring](<annotations/Anotaciones Spring.md>)
+-> [Anotaciones Spring](<../annotations/Anotaciones Spring.md>)
 -> [Forward y redirect | Thymeleaf](<Forward y redirect (Thymeleaf).md>)
 -> [Clases de Spring](<Spring Classes.md>)
 -> [HTTP Status codes](<Listado de HTTP Status Codes.md>)
