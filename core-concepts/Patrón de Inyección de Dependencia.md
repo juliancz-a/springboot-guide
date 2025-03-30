@@ -51,7 +51,7 @@ Su lema es:  **"No nos llames, nosotros te llamaremos."**
 Este principio sugiere que, en lugar de que las clases dependientes controlen el flujo de ejecución llamando directamente a sus dependencias, es un **contenedor o marco de trabajo** (framework) el que se encarga de la gestión de las instancias y la ejecución de sus métodos.
 
 --- 
-![[../res/spring-w.png]]
+![](<../res/spring-w.png>)
 
 @Controller
 @Service

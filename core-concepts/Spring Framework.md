@@ -6,7 +6,7 @@ Spring Framework (también conocido como Spring) es un marco de trabajo (framewo
 
 En **Spring Framework**, un **bean** es un **objeto** que es **gestionado** y **administrado** por el contenedor de **Spring [[IoC (Inversion of Control)]]. Los beans son instanciados, configurados y ensamblados por el contenedor de Spring, y son los bloques fundamentales de una aplicación basada en Spring.
 
-![[../res/beans.png]]
+![](../res/beans.png)
 ### **Características Clave de un Bean en Spring**
 
 1. **Gestión del Ciclo de Vida**: Spring es responsable de crear, inicializar, destruir y administrar el ciclo de vida del bean.
