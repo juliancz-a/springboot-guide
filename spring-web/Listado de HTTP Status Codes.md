@@ -43,15 +43,15 @@ Indican que el cliente debe hacer algo más para completar la solicitud.
 
 Indican que la solicitud tiene un error por parte del cliente.
 
-|**Código**|**Descripción**|
-|---|---|
-|`400 Bad Request`|La solicitud tiene una sintaxis incorrecta.|
-|`401 Unauthorized`|Se requiere autenticación para acceder al recurso.|
-|`403 Forbidden`|No tienes permiso para acceder al recurso.|
-|`404 Not Found`|El recurso solicitado no existe.|
-|`405 Method Not Allowed`|El método HTTP utilizado no está permitido.|
-|`409 Conflict`|Conflicto en la solicitud, por ejemplo, un dato duplicado.|
-|`422 Unprocessable Entity`|La solicitud es válida pero contiene datos incorrectos.|
+| **Código**                 | **Descripción**                                            |
+| -------------------------- | ---------------------------------------------------------- |
+| `400 Bad Request`          | La solicitud tiene una sintaxis incorrecta.                |
+| `401 Unauthorized`         | Se requiere autenticación para acceder al recurso.         |
+| `403 Forbidden`            | No tienes permiso para acceder al recurso.                 |
+| `404 Not Found`            | El recurso solicitado no existe.                           |
+| `405 Method Not Allowed`   | El método HTTP utilizado no está permitido.                |
+| `409 Conflict`             | Conflicto en la solicitud, por ejemplo, un dato duplicado. |
+| `422 Unprocessable Entity` | La solicitud es válida pero contiene datos incorrectos.    |
 
 ---
 
@@ -59,9 +59,9 @@ Indican que la solicitud tiene un error por parte del cliente.
 
 Indican que el servidor falló al procesar la solicitud.
 
-|**Código**|**Descripción**|
-|---|---|
-|`500 Internal Server Error`|Error general en el servidor.|
-|`502 Bad Gateway`|El servidor recibió una respuesta inválida desde otro servidor.|
-|`503 Service Unavailable`|El servidor está temporalmente fuera de servicio.|
-|`504 Gateway Timeout`|Tiempo de espera agotado al comunicarse con otro servidor.|
+| **Código**                  | **Descripción**                                                 |
+| --------------------------- | --------------------------------------------------------------- |
+| `500 Internal Server Error` | Error general en el servidor.                                   |
+| `502 Bad Gateway`           | El servidor recibió una respuesta inválida desde otro servidor. |
+| `503 Service Unavailable`   | El servidor está temporalmente fuera de servicio.               |
+| `504 Gateway Timeout`       | Tiempo de espera agotado al comunicarse con otro servidor.      |

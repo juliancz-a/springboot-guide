@@ -278,3 +278,34 @@ La anotación `@Transactional` en **Spring** se usa para **manejar transacciones
 |`@Transactional(rollbackFor = Exception.class)`|Rollback también en checked exceptions.|
 |`@Transactional(noRollbackFor = IllegalArgumentException.class)`|Evita rollback en ciertas excepciones.|
 |`@Transactional(readOnly = true)`|Optimiza consultas de solo lectura.|
+
+
+## @ConfigurationProperties
+
+Anota una clase para decirle a Spring:
+> “💡 Esta clase va a representar un _grupo de propiedades_ del archivo de configuración, y Spring las va a inyectar automáticamente en sus atributos.”
+
+###### ✅ ¿Por qué usar `@ConfigurationProperties`?
+
+| Ventaja                                | Detalle                                       |
+| -------------------------------------- | --------------------------------------------- |
+| ✅ Agrupa varias propiedades            | Muy útil para configurar módulos o servicios  |
+| ✅ Es fuertemente tipado                | Spring verifica que los tipos coincidan       |
+| ✅ Soporta propiedades anidadas, listas | Ideal para estructuras complejas              |
+| ✅ Reutilizable en múltiples lugares    | Podés inyectarla donde quieras                |
+| ✅ Separación de lógica y config        | Mejora la limpieza y mantenimiento del código |
+### 🆚 @Value`?
+
+- `@Value("${clave}")` es para **propiedades sueltas**.
+
+- `@ConfigurationProperties` es ideal para **estructuras completas**, listas, objetos anidados, etc.
+
+### ⚙️ Como instalar esta cfg
+
+1. Anotar la clase con `@Component` o registrarla con `@EnableConfigurationProperties`.
+    
+2. Tener getters y setters públicos (Spring los necesita para inyectar).
+    
+3. Tener un `prefix` que coincida con la raíz de tus propiedades.
+
+4. @EnableConfigurationProperties(Clase.class) en la clase a ser inyectada las propiedades.

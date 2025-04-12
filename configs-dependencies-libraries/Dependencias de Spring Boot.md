@@ -3,9 +3,13 @@
 
 Proporciona las herramientas para construir aplicaciones web, incluyendo soporte para MVC (Model-View-Controller) y APIs REST.
 
+---
+
 ### **Spring DevTools**: 
 
 Mejora la experiencia de desarrollo con características como reinicios automáticos y recarga de plantillas.
+
+---
 
 ### **Thymeleaf**: 
 
@@ -27,7 +31,8 @@ Un motor de plantillas para generar vistas dinámicas en aplicaciones web, integ
 	    
 **Integración con Spring:** Thymeleaf se integra de manera fluida con **Spring Boot** y **Spring MVC**. Usando **Spring MVC**, Thymeleaf puede ser configurado como el motor de plantillas para renderizar vistas a partir de los controladores. Esto hace que sea fácil crear aplicaciones web basadas en **Modelo-Vista-Controlador (MVC)**.
 
-### Actuator:
+---
+# Actuator:
 
 En **Spring Boot**, la dependencia **Actuator** proporciona funcionalidades para monitorear y gestionar aplicaciones en producción. Incluye varios puntos finales (endpoints) que ofrecen métricas, información de la aplicación, y datos operativos sobre la salud de la aplicación.
 
@@ -37,3 +42,35 @@ En **Spring Boot**, la dependencia **Actuator** proporciona funcionalidades para
 - **Métricas** (`/actuator/metrics`): Proporciona métricas sobre la memoria, el uso de CPU, y otros recursos.
 - **Información de la Aplicación** (`/actuator/info`): Muestra información personalizada definida por el desarrollador.
 - **Configuraciones y Propiedades**: Permite consultar el estado de las propiedades y beans de la aplicación.
+
+---
+
+# Spring Data REST
+#### *Exposición Automática de Repositorios JPA como API REST*
+
+Spring Data REST es un módulo de **Spring Data** que permite **exponer automáticamente** repositorios JPA como API REST sin necesidad de escribir controladores manualmente.
+
+📌 **Ejemplo práctico:**  
+Si tienes una entidad `Producto` y un repositorio `ProductoRepository`, **Spring Data REST** generará automáticamente endpoints como:
+
+- `GET /productos`
+    
+- `POST /productos`
+    
+- `GET /productos/{id}`
+    
+- `PUT /productos/{id}`
+    
+- `DELETE /productos/{id}`
+    
+
+**💡 Beneficio:** Menos código y API REST lista en segundos.
+
+
+---
+## HATEOAS
+
+El término [HATEOAS](<core-concepts/API RESTful y Jackson.md>) alude a Hypermedia as the Engine of Application State.
+
+🔹 **Implementación en Spring Boot:**  
+Spring Boot ofrece soporte para HATEOAS con la librería `spring-boot-starter-hateoas`, que permite agregar enlaces fácilmente en los controladores.

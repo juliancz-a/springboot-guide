@@ -70,6 +70,7 @@ Spring Security proporciona varias implementaciones de `PasswordEncoder`, entre 
 ✔ **`authorizeHttpRequests()`** → Configura reglas de acceso.  
 ✔ **`requestMatchers()`** → Especifica rutas con permisos.
 ✔ **`csrf().disable()`** → Deshabilita CSRF (para APIs REST sin sesiones).
+https://stackoverflow.com/questions/52363487/what-is-the-reason-to-disable-csrf-in-spring-boot-web-application
 ✔ **`addFilter()`** → Agrega filtros.
 
 --- 

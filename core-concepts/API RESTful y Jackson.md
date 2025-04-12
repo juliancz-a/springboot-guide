@@ -15,7 +15,56 @@ Una [API](API.md) **RESTful** es una API que sigue los principios de la arquitec
 
 Podemos devolver cualquier objeto serializable, tipicamente cualquier [POJO](POJO.md) o DTA, Maps, Lists/Collections, Sets, entre otros. Serán serializados en JSON preferentemente.
 
+### **HATEOAS (Hypermedia as the Engine of Application State)**
 
+HATEOAS es un principio de las **APIs REST** que permite que los clientes naveguen por los recursos del sistema dinámicamente a través de enlaces proporcionados en las respuestas.
+
+🔹 **¿Cómo funciona?**  
+En lugar de que el cliente tenga que conocer todas las rutas de la API de antemano, el servidor **proporciona enlaces (hypermedia)** en las respuestas, guiando al cliente sobre qué acciones puede realizar a continuación.
+
+En resumen:
+El servicio proporciona toda la información al cliente para que pueda interactuar con nuestro back-end, sin pasar por controladores o services
+
+**Respuesta (sin HATEOAS):**
+
+```Java
+{
+  "id": 1,
+  "nombre": "Juan Pérez",
+  "email": "juan@example.com"
+}
+```
+🔹 **Ejemplo con HATEOAS:**  
+La respuesta incluiría enlaces a acciones relacionadas:
+```Java
+{
+  "id": 1,
+  "nombre": "Juan Pérez",
+  "email": "juan@example.com",
+  "_links": {
+    "self": { "href": "/usuarios/1" },
+    "editar": { "href": "/usuarios/1", "method": "PUT" },
+    "eliminar": { "href": "/usuarios/1", "method": "DELETE" }
+  }
+}
+```
+
+🔹 **Ventajas de HATEOAS:**  
+✅ Reduce el acoplamiento entre cliente y servidor.  
+✅ Facilita la evolución de la API sin romper clientes existentes.  
+✅ Permite descubrir nuevas funcionalidades sin necesidad de documentación externa.
+
+Interfaz de configuracion -> RepositoryRestConfigurer
+	Debe ser implementada en un componente de configuración, nos permite manejar los elementos de manera que podemos, por ejemplo, exponer los ID's de la entidades a través del método configureRepositoryRestConfiguration
+
+```Java
+@Configuration
+public class DataRestConfig implements RepositoryRestConfigurer{
+
+    @Override
+    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
+        config.exposeIdsFor(Product.class)}
+```
 ## Serialización JSON
 
 Spring utiliza **Jackson** como la biblioteca predeterminada para convertir objetos Java en JSON. Cualquier clase que cumpla con los requisitos de un **POJO** (Plain Old Java Object) puede ser convertida automáticamente a formato JSON si:
